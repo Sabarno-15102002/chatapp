@@ -1,0 +1,15 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "this is a node server for this weChat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "nodemon .\\Server\\index.js"
+  },
+  "author": "Sabarno",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.4.0"
+  }
+}
